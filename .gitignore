@@ -1,0 +1,44 @@
+# Node modules directory
+node_modules/
+
+# Build output (compiled CSS, etc.)
+public/css/
+dist/
+build/
+
+# Tailwind's JIT mode cache (if used)
+.tailwind/
+
+# Environment files (containing sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Log files (often auto-generated)
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store        # macOS system file
+Thumbs.db         # Windows system file
+
+# npm package lock files (if you don't want to track them)
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage directory for code coverage tools (e.g., Jest)
+coverage/
+
+# SASS/SCSS compiled output (if using SASS)
+.sass-cache/
+
+# Compiled assets and reports (for static site generators, etc.)
+*.css.map
+*.js.map
